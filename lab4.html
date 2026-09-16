@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 4: Plant Cell versus Animal Cell</title>
+  <style>
+    :root {
+      --navy:#17324d;
+      --green:#2f6b4f;
+      --cream:#f7f8f5;
+      --card:#ffffff;
+      --text:#21313d;
+      --muted:#64727d;
+      --line:#dce4df;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:var(--cream);
+      color:var(--text);
+      line-height:1.55;
+    }
+    header {
+      background:linear-gradient(135deg,var(--navy),var(--green));
+      color:#fff;
+      padding:44px 20px;
+      text-align:center;
+    }
+    header h1 { margin:0; font-size:clamp(1.8rem,4vw,2.8rem); }
+    main {
+      max-width:980px;
+      margin:32px auto;
+      padding:0 18px 40px;
+    }
+    .card {
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:24px;
+      box-shadow:0 8px 24px rgba(20,40,30,.06);
+    }
+    h2 { margin-top:0; color:var(--navy); }
+    .lead { color:var(--muted); margin-bottom:22px; }
+    .video-wrap {
+      position:relative;
+      padding-top:56.25%;
+      overflow:hidden;
+      border-radius:12px;
+      background:#000;
+    }
+    .video-wrap iframe {
+      position:absolute;
+      inset:0;
+      width:100%;
+      height:100%;
+      border:0;
+    }
+    .note {
+      margin-top:18px;
+      padding:14px 16px;
+      background:#eef5f1;
+      border-left:4px solid var(--green);
+      border-radius:8px;
+    }
+    footer {
+      text-align:center;
+      color:var(--muted);
+      font-size:.9rem;
+      padding:22px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lab 4: Plant Cell versus Animal Cell</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Lab 4 Video</h2>
+      <p class="lead">
+        Watch the Lab 4 recording below before completing the associated virtual lab activities and assessment.
+      </p>
+
+      <div class="video-wrap">
+        <iframe
+          src="https://player.vimeo.com/video/1227541082?title=0&byline=0&portrait=0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+          title="Lab 4: Plant Cell versus Animal Cell">
+        </iframe>
+      </div>
+
+      <div class="note">
+        Trouble viewing the video? Open the original Vimeo recording or contact your instructor.
+      </div>
+    </div>
+  </main>
+
+  <footer>BIOL 344 · Lab 4</footer>
+</body>
+</html>
